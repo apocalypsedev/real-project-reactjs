@@ -1,0 +1,1 @@
+export { default as Chair1} from "./images/chais_main1.png"

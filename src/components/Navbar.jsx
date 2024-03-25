@@ -15,7 +15,7 @@ function Navbar() {
             <div className=' lg:w-full w-11/12 mx-auto h-full flex justify-between items-center'>
                 <div className=' flex flex-col gap-y-4'>
                     <div className=' flex items-center gap-x-2'>
-                        <h2 className=' font-semibold text-3xl'>Cobalten</h2>
+                        <h2 className=' font-bold text-3xl'>Cobalten</h2>
                     </div>
                 </div>
                 <ul className=' flex-1 flex justify-center items-center xl:gap-12 gap-x-4 max-lg:hidden'>
@@ -37,10 +37,10 @@ function Navbar() {
                     </a>
                 </ul>
                 <div className=' flex max-lg:hidden gap-x-4'>
-                    <button className=' bg-secondary rounded-[10px] p-2 border-none to-white cursor-pointer hover:bg-white hover:text-secondary'>
+                    <button className=' bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary'>
                         <FiShoppingBag size={18}/>
                     </button>
-                    <button className=' bg-secondary rounded-[10px] p-2 border-none to-white cursor-pointer hover:bg-white hover:text-secondary'>
+                    <button className=' bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary'>
                         <FiUser size={18}/>
                     </button>
                 </div>
@@ -67,25 +67,33 @@ function Navbar() {
                                 <a 
                                     href="#"
                                     className=' leading-normal no-underline text-black font-bold text-lg hover:text-primary'
-                                >Blog</a>
+                                >
+                                    Blog
+                                </a>
                                 <a 
                                     href="#"
                                     className=' leading-normal no-underline text-black font-bold text-lg hover:text-primary'
-                                >Shop</a>
+                                >
+                                    Shop
+                                </a>
                                 <a 
                                     href="#"
                                     className=' leading-normal no-underline text-black font-bold text-lg hover:text-primary'
-                                >Contact</a>
+                                >
+                                    Contact
+                                </a>
                                 <a 
                                     href="#"
                                     className=' leading-normal no-underline text-black font-bold text-lg hover:text-primary'
-                                >Product</a>
+                                >
+                                    Product
+                                </a>
                             </ul>
-                            <div>
-                                <button>
+                            <div className=' flex flex-col justify-center items-center w-full gap-y-8 mt-4'>
+                                <button className=' bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary'>
                                     <FiShoppingBag size={18}/>
                                 </button>
-                                <button>
+                                <button className=' bg-secondary rounded-[10px] p-2 border-none text-white cursor-pointer hover:bg-white hover:text-secondary'>
                                     <FiUser size={18}/>
                                 </button>
                             </div>
